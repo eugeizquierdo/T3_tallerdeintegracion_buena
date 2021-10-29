@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Chat from "./componentes/Chat";
+import Trucks from "./componentes/Trucks"
+import Map from "./componentes/Map"
 import "./App.css";
+
 
 function App() {
   const [nombre, setNombre] = useState("");
@@ -18,7 +21,9 @@ function App() {
       <div className="header">
         <h1>Centro de Control</h1>
         <h2>Flota de camiones mineros</h2>
+        <p> 1. Chat - 2. Informacion Camiones - 3. Mapa </p>
       </div>
+      <br/>
       <br/>
 
       {!registrado && (
@@ -33,7 +38,16 @@ function App() {
       )}
 
       {registrado && <Chat nombre={nombre} />}
-    </div>
+        <br/>
+        <br/>
+        <br/>
+      <div className="column"></div>
+      <Trucks />
+        <br/>
+        <br/>
+        <br/>
+      <Map/>
+      </div>
   );
 }
 

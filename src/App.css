@@ -7,10 +7,10 @@
 }
 
 .chat {
-  width: 50%;
+  width: 30%;
   text-align: center;
-  min-height: 50vh;
-  max-height: 200vh;
+  min-height: 25vh;
+  max-height: 70vh;
   overflow: scroll;
   border: 2px solid rgb(0, 0, 0);
 }
@@ -34,6 +34,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 20px;
   margin: 4px 20px;
 }
 
@@ -50,28 +51,7 @@
    clear: both;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-/* @media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
-} */
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-} */
-
-/* .row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-} */
-
-/* .mapa { 
+.mapa { 
   height: 180px; 
-} */
+  border:rgb(153, 45, 69)
+}
