@@ -1,0 +1,77 @@
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 25px;
+}
+
+.chat {
+  width: 50%;
+  text-align: center;
+  min-height: 50vh;
+  max-height: 200vh;
+  overflow: scroll;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.button {
+  background-color: rgb(153, 45, 69);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 50px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.intro {
+  color: rgb(153, 45, 69);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 20px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+/* @media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+} */
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} */
+
+/* .row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+} */
+
+/* .mapa { 
+  height: 180px; 
+} */
